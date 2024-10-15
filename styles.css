@@ -1,16 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    padding: 10px;
-    margin: 5px 0;
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+#task-list div {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#task-list div.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#task-input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+}

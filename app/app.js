@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/tasks'; // Adjust this for production
+const API_URL = 'http://localhost:3000/api/tasks';
 
 async function fetchTasks() {
     const response = await fetch(API_URL);
